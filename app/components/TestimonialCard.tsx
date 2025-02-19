@@ -3,7 +3,7 @@ import Image from "next/image";
 export const TestimonialCard = () => {
   return (
     // x0 y1 blur 3 spread 0 color 000 10%
-    <div className="w-[340px] h-[233px] bg-white rounded-lg p-6 shadow">
+    <div className="w-[340px] h-[233px] bg-white rounded-lg p-6 shadow mt-[200px] ml-auto mr-auto">
       {/* PHOTO, NAME and HANDLE */}
       <div className="flex mb-4">
         <Image
@@ -25,9 +25,9 @@ export const TestimonialCard = () => {
       {/* BODY */}
       <div>
         <p className="text-neutral-600 clamp">
-          I&apos;ve been searching for high-quality abstract images for my design
-          projects, and I&apos;m thrilled to have found this platform. The variety
-          and depth of creativity are astounding!
+          I&apos;ve been searching for high-quality abstract images for my
+          design projects, and I&apos;m thrilled to have found this platform.
+          The variety and depth of creativity are astounding!
         </p>
       </div>
     </div>
