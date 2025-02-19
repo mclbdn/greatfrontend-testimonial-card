@@ -25,8 +25,8 @@ export const TestimonialCard = () => {
       {/* BODY */}
       <div>
         <p className="text-neutral-600 clamp">
-          I've been searching for high-quality abstract images for my design
-          projects, and I'm thrilled to have found this platform. The variety
+          I&apos;ve been searching for high-quality abstract images for my design
+          projects, and I&apos;m thrilled to have found this platform. The variety
           and depth of creativity are astounding!
         </p>
       </div>
